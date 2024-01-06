@@ -1,0 +1,18 @@
+{
+  "name": "@vitest/example-lit",
+  "type": "module",
+  "private": true,
+  "files": ["dist", "types"],
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/browser": "latest",
+    "vite": "latest",
+    "vitest": "latest",
+    "webdriverio": "^8.21.1"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test"
+  }
+}
